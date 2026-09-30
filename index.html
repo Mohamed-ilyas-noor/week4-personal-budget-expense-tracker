@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpendWise Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="sidebar-brand">
+                <h2>SpendWise</h2>
+                <p>Budget Tracker</p>
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-item active">
+                    <span>🏠</span>
+                    <span>Dashboard</span>
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>💰</span>
+                    <span>Income</span>
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>💳</span>
+                    <span>Expenses</span>
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>📊</span>
+                    <span>Reports</span>
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>⚙️</span>
+                    <span>Settings</span>
+                </a>
+
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>Personal Finance</p>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Header -->
+            <header class="dashboard-header">
+
+                <div class="header-title">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back! Here's your financial overview.</p>
+                </div>
+
+                <div class="header-actions">
+
+                    <div class="balance">
+                        <span>Total Balance</span>
+                        <strong>KSh 35,000</strong>
+                    </div>
+
+                    <div class="user-profile">
+                        <span class="profile-icon">👤</span>
+
+                        <div>
+                            <strong>Issa</strong>
+                            <small>Account</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Category Cards -->
+            <section class="dashboard-section">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Expense Categories</h2>
+                        <p>Your spending overview by category</p>
+                    </div>
+                </div>
+
+
+                <div class="category-grid">
+
+                    <!-- Food -->
+                    <article class="category-card food-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">🍔</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Food</h3>
+                            <strong>KSh 4,500</strong>
+                            <p>12 transactions</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Transport -->
+                    <article class="category-card transport-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">🚌</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Transport</h3>
+                            <strong>KSh 3,200</strong>
+                            <p>8 transactions</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Rent -->
+                    <article class="category-card rent-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">🏠</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Rent</h3>
+                            <strong>KSh 8,000</strong>
+                            <p>1 transaction</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Entertainment -->
+                    <article class="category-card entertainment-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">🎬</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Entertainment</h3>
+                            <strong>KSh 2,000</strong>
+                            <p>5 transactions</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Savings -->
+                    <article class="category-card savings-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">💰</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Savings</h3>
+                            <strong>KSh 10,000</strong>
+                            <p>Monthly target</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Utilities -->
+                    <article class="category-card utilities-card">
+
+                        <div class="card-top">
+                            <div class="category-icon">💡</div>
+
+                            <span class="card-label">
+                                This Month
+                            </span>
+                        </div>
+
+                        <div class="card-content">
+                            <h3>Utilities</h3>
+                            <strong>KSh 2,800</strong>
+                            <p>6 transactions</p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- Recent Activity -->
+            <section class="recent-section">
+
+                <div class="section-heading">
+                    <div>
+                        <h2>Recent Activity</h2>
+                        <p>Your latest financial activity</p>
+                    </div>
+                </div>
+
+                <div class="activity-list">
+
+                    <div class="activity-item">
+                        <span class="activity-icon">🍔</span>
+
+                        <div class="activity-details">
+                            <strong>Lunch</strong>
+                            <span>Food • Today</span>
+                        </div>
+
+                        <strong class="activity-amount">- KSh 300</strong>
+                    </div>
+
+
+                    <div class="activity-item">
+                        <span class="activity-icon">🚌</span>
+
+                        <div class="activity-details">
+                            <strong>Bus Fare</strong>
+                            <span>Transport • Yesterday</span>
+                        </div>
+
+                        <strong class="activity-amount">- KSh 500</strong>
+                    </div>
+
+
+                    <div class="activity-item">
+                        <span class="activity-icon">💰</span>
+
+                        <div class="activity-details">
+                            <strong>Monthly Savings</strong>
+                            <span>Savings • Yesterday</span>
+                        </div>
+
+                        <strong class="activity-amount saving">
+                            + KSh 10,000
+                        </strong>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
